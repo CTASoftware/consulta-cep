@@ -19,7 +19,7 @@ A library irá retornar para você a resposta mais rápida, aumentando assim a p
 Adicione a library
 
 ```shell
-$ composer require CTASoftware/consulta-cep
+$ composer require ctasoftware/consulta-cep
 ```
     
 Adicione o autoload.php do composer no seu arquivo PHP.
