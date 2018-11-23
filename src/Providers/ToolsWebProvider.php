@@ -13,7 +13,7 @@ class ToolsWebProvider implements ProviderContract
      */
     public function getAddress($cep, HttpClientContract $client)
     {
-        $response = $client->get('https://www.toolsweb.ml/api/'.$cep);
+        $response = $client->get('https://www.encontrarcep.com.br/api/'.$cep);
 
         if (!is_null($response)) {
             $data = json_decode($response, true);
